@@ -58,6 +58,8 @@ func changePin() {
 	}
 	defaultPIN = newItem
 	fmt.Println("Pin Changed Successfully.")
+	
+	anotherOperation()
 }
 
 func viewAccountBalance() {
